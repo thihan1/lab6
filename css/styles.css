@@ -12,14 +12,14 @@
 /*Bodystyles*/
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #333;
     line-height: 1.6;
 }
 
 /*Headerstyles*/
 header {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     padding: 20px0;
     text-align: center;
@@ -27,7 +27,7 @@ header {
 
 .profile-image img {
     border-radius: 50%;
-    max-width: 150px;
+    width:150px;
 }
 
 .profile-info {
@@ -37,10 +37,12 @@ header {
 .profile-info h2 {
     font-size: 24px;
     margin-bottom: 5px;
+    color:#fff;
 }
 
 .profile-info p {
     font-size: 16px;
+    color:#fff;
 }
 
 .main-menu ul {
@@ -65,6 +67,21 @@ header {
 .main-menu a:hover {
     color: #ffd700;
 }
+.htt {
+    float: left;
+  width: 25%;
+  background: #f4f4f4;
+  color:#333;
+}
+.htt h3 {
+    background:#ffd700;
+}
+.mtt{
+    float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #fff;
+}
 
 /*Maincontentstyles*/
 main {
@@ -87,7 +104,7 @@ h2 {
     color: #333;
 }
 
-p {
+.mtt p {
     font-size: 18px;
     color: #555;
 }
